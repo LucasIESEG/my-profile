@@ -1,0 +1,100 @@
+/* Colors and fonts*/
+
+body {
+	background: #EAD7BB;
+	font-family: cursive;
+	font-size: 20px;
+	color: #190482;
+	font-weight: lighter;
+}
+
+
+h1, h2 {
+	font-family: Montserrat;
+	color: #113946;
+	font-weight: lighter;
+}
+h1 {
+	font-size: 44px;
+}
+h2 {
+	font-size: 28px;
+}
+a {
+	text-decoration: none;
+	color: #3876BF;
+	font-weight: lighter;
+	font-family: Dosis;
+	font-size: 20px;
+
+}
+a:hover {
+	color: #192655;
+	text-decoration: none;
+}
+
+/* Custom design with class*/
+
+.container {
+	width: 600px;
+	margin: 40px auto;
+}
+
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #F5F7F8;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 5%;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	background-color: #3876BF;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 50%;
+}
+
+.btn-blue:hover {
+	background-color: #190482;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+#introduction p {
+	padding-bottom: 20px ;
+}
+
+
+
+
+
+
